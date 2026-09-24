@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="de" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung | Big Burger</title>
+
+    <!-- Font Awesome (Local) -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+
+    <!-- Tailwind CSS (Local) -->
+    <script src="assets/js/tailwindcss.js"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        heading: '#311818',
+                        bodytext: '#4D2D2D',
+                        detail: '#654747',
+                        bg1: '#FDFAFA',
+                        bg2: '#F9F2F2',
+                        bg3: '#EADCDC',
+                        brand1: '#770909',
+                        brand2: '#300404',
+                    },
+                    fontFamily: {
+                        sans: ['"Roboto Slab"', 'serif'],
+                        serif: ['"Roboto Slab"', 'serif'],
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom CSS -->
+    <style>
+        /* Local Fonts */
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            weight: 300;
+            font-display: swap;
+            src: url('assets/fonts/roboto-slab-300.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 400;
+            font-display: swap;
+            src: url('assets/fonts/roboto-slab-regular.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 500;
+            font-display: swap;
+            src: url('assets/fonts/roboto-slab-500.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 600;
+            font-display: swap;
+            src: url('assets/fonts/roboto-slab-600.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 700;
+            font-display: swap;
+            src: url('assets/fonts/roboto-slab-700.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 800;
+            font-display: swap;
+            src: url('assets/fonts/roboto-slab-800.woff2') format('woff2');
+        }
+
+        @font-face {
+            font-family: 'Roboto Slab';
+            font-style: normal;
+            font-weight: 900;
+            font-display: swap;
+            src: url('assets/fonts/roboto-slab-900.woff2') format('woff2');
+        }
+
+        body {
+            background-color: #F9F2F2;
+            color: #4D2D2D;
+            font-family: 'Roboto Slab', serif;
+        }
+    </style>
+</head>
+
+<body
+    class="font-sans antialiased overflow-x-hidden selection:bg-brand1 selection:text-bg1 bg-bg2 text-bodytext min-h-screen flex flex-col justify-between">
+
+    <!-- Navbar -->
+    <nav id="navbar"
+        class="fixed top-6 left-1/2 -translate-x-1/2 z-50 transition-all duration-300 w-[90%] max-w-lg rounded-full py-3 px-6 flex items-center justify-between bg-bg1 text-heading border border-detail shadow-md">
+        <a href="index.html#hero"
+            class="font-bold text-xl tracking-wide flex items-center gap-2 hover:text-brand1 transition-colors">
+            Big Burger
+        </a>
+        <div class="flex items-center gap-4 sm:gap-6 text-sm font-medium">
+            <a href="index.html#reservation" class="hover:text-brand1 transition-colors">Reservierung</a>
+            <a href="index.html#menu"
+                class="bg-brand1 text-bg1 px-5 py-2 rounded-full hover:bg-brand2 transition shadow-md">Menü</a>
+        </div>
+    </nav>
+
+    <!-- Datenschutz Content Section -->
+    <main class="pt-36 pb-24 md:pt-44 md:pb-32 px-4 sm:px-6 flex-grow break-words">
+        <div class="max-w-3xl mx-auto">
+            <!-- Header -->
+            <div class="mb-12">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold text-heading">Datenschutzerklärung</h1>
+            </div>
+
+            <!-- Content Area (Ohne Box) -->
+            <div class="space-y-10 text-bodytext text-base md:text-lg leading-relaxed">
+
+                <!-- 1. Datenschutz auf einen Blick -->
+                <section>
+                    <h2 class="text-2xl md:text-3xl font-bold text-heading mb-6">1. Datenschutz auf einen Blick</h2>
+
+                    <!-- Allgemeine Hinweise -->
+                    <div class="mb-8">
+                        <h3 class="text-xl font-bold text-heading mb-2">Allgemeine Hinweise</h3>
+                        <p>
+                            Die folgenden Hinweise geben einen einfachen Überblick darüber, was mit Ihren
+                            personenbezogenen Daten passiert, wenn Sie diese Website besuchen. Personenbezogene Daten
+                            sind alle Daten, mit denen Sie persönlich identifiziert werden können. Ausführliche
+                            Informationen zum Thema Datenschutz entnehmen Sie unserer unter diesem Text aufgeführten
+                            Datenschutzerklärung.
+                        </p>
+                    </div>
+
+                    <!-- Datenerfassung auf dieser Website -->
+                    <div class="mb-8">
+                        <h3 class="text-xl font-bold text-heading mb-4">Datenerfassung auf dieser Website</h3>
+
+                        <div class="space-y-6">
+                            <div>
+                                <h4 class="text-lg font-bold text-heading mb-1">Wer ist verantwortlich für die
+                                    Datenerfassung auf dieser Website?</h4>
+                                <p>
+                                    Die Datenverarbeitung auf dieser Website erfolgt durch den Websitebetreiber. Dessen
+                                    Kontaktdaten können Sie dem Abschnitt „Hinweis zur verantwortlichen Stelle“ in
+                                    dieser Datenschutzerklärung entnehmen.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="text-lg font-bold text-heading mb-1">Wie erfassen wir Ihre Daten?</h4>
+                                <p class="mb-3">
+                                    Ihre Daten werden zum einen dadurch erhoben, dass Sie uns diese mitteilen. Hierbei
+                                    kann es sich z. B. um Daten handeln, die Sie in ein Kontaktformular eingeben.
+                                </p>
+                                <p>
+                                    Andere Daten werden automatisch oder nach Ihrer Einwilligung beim Besuch der Website
+                                    durch unsere IT-Systeme erfasst. Das sind vor allem technische Daten (z. B.
+                                    Internetbrowser, Betriebssystem oder Uhrzeit des Seitenaufrufs). Die Erfassung
+                                    dieser Daten erfolgt automatisch, sobald Sie diese Website betreten.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="text-lg font-bold text-heading mb-1">Wofür nutzen wir Ihre Daten?</h4>
+                                <p>
+                                    Ein Teil der Daten wird erhoben, um eine fehlerfreie Bereitstellung der Website zu
+                                    gewährleisten. Andere Daten können zur Analyse Ihres Nutzerverhaltens verwendet
+                                    werden. Sofern über die Website Verträge geschlossen oder angebahnt werden können,
+                                    werden die übermittelten Daten auch für Vertragsangebote, Bestellungen oder sonstige
+                                    Auftragsanfragen verarbeitet.
+                                </p>
+                            </div>
+
+                            <div>
+                                <h4 class="text-lg font-bold text-heading mb-1">Welche Rechte haben Sie bezüglich Ihrer
+                                    Daten?</h4>
+                                <p class="mb-3">
+                                    Sie haben jederzeit das Recht, unentgeltlich Auskunft über Herkunft, Empfänger und
+                                    Zweck Ihrer gespeicherten personenbezogenen Daten zu erhalten. Sie haben außerdem
+                                    ein Recht, die Berichtigung oder Löschung dieser Daten zu verlangen. Wenn Sie eine
+                                    Einwilligung zur Datenverarbeitung erteilt haben, können Sie diese Einwilligung
+                                    jederzeit für die Zukunft widerrufen. Außerdem haben Sie das Recht, unter bestimmten
+                                    Umständen die Einschränkung der Verarbeitung Ihrer personenbezogenen Daten zu
+                                    verlangen. Des Weiteren steht Ihnen ein Beschwerderecht bei der zuständigen
+                                    Aufsichtsbehörde zu.
+                                </p>
+                                <p>
+                                    Hierzu sowie zu weiteren Fragen zum Thema Datenschutz können Sie sich jederzeit an
+                                    uns wenden.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Analyse-Tools und Tools von Drittanbietern -->
+                    <div>
+                        <h3 class="text-xl font-bold text-heading mb-2">Analyse-Tools und Tools von Drittanbietern</h3>
+                        <p>
+                            Beim Besuch dieser Website kann Ihr Surf-Verhalten statistisch ausgewertet werden. Das
+                            geschieht vor allem mit sogenannten Analyseprogrammen. Detaillierte Informationen zu diesen
+                            Analyseprogrammen finden Sie in der folgenden Datenschutzerklärung.
+                        </p>
+                    </div>
+                </section>
+
+                <div class="border-t border-detail"></div>
+
+                <!-- 2. Hosting -->
+                <section>
+                    <h2 class="text-2xl md:text-3xl font-bold text-heading mb-6">2. Hosting</h2>
+                    <p class="mb-4">
+                        Wir hosten die Inhalte unserer Website bei folgendem Anbieter:
+                    </p>
+
+                    <div class="mb-6">
+                        <h3 class="text-xl font-bold text-heading mb-2">Hetzner</h3>
+                        <p class="mb-3">
+                            Anbieter ist die Hetzner Online GmbH, Industriestr. 25, 91710 Gunzenhausen (nachfolgend
+                            Hetzner). Details entnehmen Sie der Datenschutzerklärung von Hetzner:
+                            <a href="https://www.hetzner.com/de/legal/privacy-policy/" target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-brand1 hover:text-brand2 underline underline-offset-4 break-all">
+                                https://www.hetzner.com/de/legal/privacy-policy/
+                            </a>.
+                        </p>
+                        <p>
+                            Die Verwendung von Hetzner erfolgt auf Grundlage von Art. 6 Abs. 1 lit. f DSGVO. Wir haben
+                            ein berechtigtes Interesse an einer möglichst zuverlässigen Darstellung unserer Website.
+                            Sofern eine entsprechende Einwilligung abgefragt wurde, erfolgt die Verarbeitung
+                            ausschließlich auf Grundlage von Art. 6 Abs. 1 lit. a DSGVO und § 25 Abs. 1 TDDDG, soweit
+                            die Einwilligung die Speicherung von Cookies oder den Zugriff auf Informationen im Endgerät
+                            des Nutzers (z. B. Device-Fingerprinting) im Sinne des TDDDG umfasst. Die Einwilligung ist
+                            jederzeit widerrufbar.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-xl font-bold text-heading mb-2">Auftragsverarbeitung</h3>
+                        <p>
+                            Wir haben einen Vertrag über Auftragsverarbeitung (AVV) zur Nutzung des oben genannten
+                            Dienstes geschlossen. Hierbei handelt es sich um einen datenschutzrechtlich vorgeschriebenen
+                            Vertrag, der gewährleistet, dass dieser die personenbezogenen Daten unserer Websitebesucher
+                            nur nach unseren Weisungen und unter Einhaltung der DSGVO verarbeitet.
+                        </p>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer id="location" class="bg-heading text-bg1 pt-20 pb-10">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-24 mb-16">
+            <!-- Details -->
+            <div>
+                <h3 class="font-bold text-3xl mb-8 text-bg1">Big Burger</h3>
+                <div class="space-y-6 text-bg2 font-light">
+                    <a href="https://maps.google.com/?q=Max+Mustermann+Stra%C3%9Fe+10,+10999+Berlin" target="_blank"
+                        class="flex items-start gap-4 hover:text-brand1 transition-colors">
+                        <i class="fa-solid fa-location-dot mt-1 text-brand1"></i>
+                        <span>Max Mustermann Straße 10,<br>10999 Berlin</span>
+                    </a>
+                    <a href="tel:030123456789" class="flex items-start gap-4 hover:text-brand1 transition-colors">
+                        <i class="fa-solid fa-phone mt-1 text-brand1"></i>
+                        <span>030 123456789</span>
+                    </a>
+                    <div class="pt-2">
+                        <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"
+                            class="w-10 h-10 rounded-full bg-bodytext hover:bg-brand1 hover:text-bg1 transition-all duration-300 inline-flex items-center justify-center text-bg1"
+                            aria-label="Instagram">
+                            <i class="fa-brands fa-instagram text-lg"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map Iframe Placeholder -->
+            <div class="w-full h-64 bg-detail rounded-2xl overflow-hidden shadow-inner">
+                <iframe
+                    src="https://maps.google.com/maps?q=Max%20Mustermann%20Stra%C3%9Fe%2010%2C%2010999%20Berlin&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    class="grayscale contrast-125 opacity-80 hover:grayscale-0 hover:opacity-100 transition-all duration-500"></iframe>
+            </div>
+        </div>
+
+        <div
+            class="max-w-6xl mx-auto px-6 border-t border-detail pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-sm text-bg3">
+            <p>&copy; 2026 Big Burger. Alle Rechte vorbehalten.</p>
+            <div class="flex items-center gap-6">
+                <!-- Legal -->
+                <a href="impressum.html" class="hover:text-bg1 transition-colors">Impressum</a>
+                <a href="datenschutz.html"
+                    class="hover:text-bg1 transition-colors font-semibold text-bg1">Datenschutz</a>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

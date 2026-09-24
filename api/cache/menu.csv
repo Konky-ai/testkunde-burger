@@ -1,0 +1,23 @@
+Kategorie,Kategorie_Offen,Name,Beschreibung,Preis,Badge,Allergene
+Snacks,NEIN,Bruschetta Classica,"Geröstetes Landbrot, Datterini Tomaten, Knoblauch, frisches Basilikum, Olivenöl extra vergine",8.50 €,,A
+Snacks,NEIN,Burrata e Crudo,"Cremige Burrata aus Apulien, 24 Monate gereifter Parmaschinken, Rucola, Kirschtomaten",14.00 €,,G
+Burger,JA,Marinara,"San Marzano Tomaten DOP, frisches Basilikum, Olivenöl extra vergine",10.00 €,,
+Burger,JA,Margherita,"San Marzano Tomaten DOP, Fior di Latte, frisches Basilikum, Olivenöl extra vergine",11.00 €,Popular,"A, G"
+Burger,JA,Diavola,"San Marzano Tomaten DOP, Fior di Latte, scharfe Spianata Salami, Chili",13.50 €,,"A, G"
+Burger,JA,Tartufo,"Trüffelcreme, Fior di Latte, frische Champignons, Rucola, gehobelter frischer Trüffel",16.50 €,,"A, G"
+Dessert,NEIN,Tiramisu Classico,Hausgemacht nach altem Familienrezept,6.50 €,,"A, C, G"
+Getränke,NEIN,Fritz Cola,Leckere Cola,4.00 €,,
+Allergene,NEIN,,A = glutenhaltiges Getreide,,,
+Allergene,NEIN,,B = Krebstiere- und -erzeugnisse,,,
+Allergene,NEIN,,C = Eier und daraus gewonnene Erzeugnisse,,,
+Allergene,NEIN,,D = Fisch- und Fischerzeugnisse (außer Fischgelatine),,,
+Allergene,NEIN,,E = Erdnüsse und –erzeugnisse,,,
+Allergene,NEIN,,F = Soja (-bohnen) und –erzeugnisse,,,
+Allergene,NEIN,,G  = Milch und Milcherzeugnisse (inklusive Laktose),,,
+Allergene,NEIN,,H = Schalenfrüchte und daraus gewonnene Erzeugnisse,,,
+Allergene,NEIN,,L = Sellerie und –erzeugnisse,,,
+Allergene,NEIN,,M = Senf- und Senferzeugnisse,,,
+Allergene,NEIN,,N = Sesamsamen und –erzeugnisse,,,
+Allergene,NEIN,,O = Schwefeldioxid und –erzeugnisse,,,
+Allergene,NEIN,,P = Lupinen und daraus hergestellte Produkte,,,
+Allergene,NEIN,,"R  = Weichtiere wie Schnecken, Muscheln, Tintenfische und daraus hergestellte",,,
