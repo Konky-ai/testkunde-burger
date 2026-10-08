@@ -1,0 +1,11 @@
+# ==========================================
+# Robots.txt für Big Burger
+# Alle Web-Crawler und User-Agents sind erlaubt
+# ==========================================
+
+User-agent: *
+Allow: /
+
+# Sitemap-Referenz
+Sitemap: sitemap.xml
+
